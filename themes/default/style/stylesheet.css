@@ -1,0 +1,104 @@
+*{
+	
+	color: #247;
+}
+
+body{
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        
+	color: white;
+	background-image: url("./themes/default/javascript/fancytree-master/demo/nav_bg.png");
+	background-repeat: repeat-x;
+}
+
+#container{
+	margin: 0 auto;
+	width: 1200px;
+	border: 1px solid #448;
+	border-radius: 20px;
+	padding: 20px;
+  /*box-shadow: 8px 8px 8px 0px #ccc;*/
+	margin-bottom: 20px;
+	background-color: white;
+}
+.error{
+	border: 1px solid #8c0909;
+	border-radius: 8px;
+	background-color: #fd9999;
+	color: #8c0909;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+
+/* ========================eerdere css================= */
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.arceren td{
+	border: 1px solid #AAA;
+}
+
+table.arceren tr:nth-child(2n) {
+	background-color: #eee;
+}
+
+/* klasse voor eerste rij van tabel */
+.theader{
+	font-weight: bold;	
+	text-transform: uppercase;
+	border-bottom: 1px dashed #247;
+}
+/* =================einde eerdere css ================*/
+thead{
+	font-weight: bold;
+}
+td.right{
+	text-align: right;
+}
+table.list{
+	width: 100%;
+}
+.msg{
+	border: 1px solid #00662a;
+	border-radius: 4px;
+	background-color: #36a531;
+	color: #fff;
+	padding: 2px;
+	margin-bottom: 10px;
+}
+.required + span{
+	color: #f00;
+	margin-left: 5px;
+}
+ul.menu{
+	list-style-type: none;
+}
+ul.menu li{
+	float: left;
+	margin-right: 20px;
+}
+.gray{
+    background-color:lightgray;
+}
+.items{
+    
+}
+
+/* ============  Begin menu sectie =============== */
+
+.edit_option_button{
+    width:10px;
+        
+}
+#resizable { width: 250px; height: 50px; padding: 0.5em; }
+#resizable h3 { text-align: center; margin: 0; }
+
+/*============= Eind module styles  ===============*/
+
+
+
+
